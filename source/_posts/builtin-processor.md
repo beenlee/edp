@@ -487,7 +487,7 @@ new MD5Renamer( {
 
 ### replacements
 
-`Object`，要替换的资源配置。该对象只支持`html`和`css`两个属性，分别是`Array.<string>`。
+`Object`，要替换的资源配置。该对象只支持`html`和`css`两个属性，分别是`Array.<Object>`。
 
 不同类型的资源，将进行不同的替换：
 
